@@ -1,0 +1,4191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times,
+    'Times New Roman', serif;
+}
+
+.container{
+    width: 100%;
+}
+
+/* Navigation bar Start */
+
+.nav_bar{
+    padding: 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav_bar .logo a{
+    text-decoration: none;
+    color: #3a40d8;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+/* .nav_bar .menu{} */
+
+.nav_bar .menu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3a40d8;
+}
+
+.nav_bar .menu a:hover{
+    color: #3a40d8;
+    background-color: white;
+    border: 1px solid #3a40d8;
+}
+
+.nav_bar .menu a i{
+    font-size: 13px;
+    padding-left: 8px;
+}
+
+/* Navigation bar End */
+
+/* Section-1 Start */
+
+.section_1{
+    padding: 20px 220px;
+}
+
+.hero_sec{
+    display: flex;
+}
+
+.hero_sec .left{
+    width: 50%;
+    padding-top: 80px;
+}
+
+#circle_1{
+    display: inline-block;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #3a40d8;
+    opacity: 0.7;
+    border-radius: 50%;
+    margin: -320px 0px 0px -320px;
+}
+
+.hero_sec .left .hero_title{
+    font-size: 70px;
+    padding-right: 120px;
+    font-weight: bold;
+    word-spacing: 5px;
+    margin: -128px 0px 0px -46px;
+}
+
+.hero_sec .left .hero_title p{
+    display: inline-block;
+    color: #3a40d8;
+}
+
+.hero_sec .left .hero_btn_container{
+    display: flex;
+    padding-top: 20px;
+    margin-left: -46px;
+}
+
+.hero_sec .left .hero_btn_container .hero_btn_1{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3a40d8;
+}
+
+.hero_sec .left .hero_btn_container .hero_btn_1:hover{
+    color: #3a40d8;
+    background-color: white;
+    border: 1px solid #3a40d8;
+}
+
+.hero_sec .left .hero_btn_container .hero_btn_1 i{
+    font-size: 15px;
+    padding-left: 6px;
+}
+
+.hero_sec .left .hero_btn_container .hero_btn_2{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    color: #3a40d8;
+    border: 1px solid #3a40d8;
+    background-color: white;
+}
+
+.hero_sec .left .hero_btn_container .hero_btn_2:hover{
+    color: white;
+    background-color: #3a40d8;
+}
+
+.hero_sec .left .hero_btn_container .hero_btn_2 i{
+    font-size: 15px;
+    padding-left: 6px;
+}
+
+.hero_sec .right{
+    padding-top: 80px;
+    width: 50%;
+}
+
+#circle_2{
+    display: inline-block;
+    width: 430px;
+    height: 430px;
+    border: 2px solid #3a40d8;
+    border-radius: 50%;
+    margin: 0px 0px -18px 0px;
+}
+
+#circle_3{
+    display: inline-block;
+    width: 430px;
+    height: 430px;
+    border: 2px solid #3a40d8;
+    border-radius: 50%;
+    margin: -416px 0px 0px 47px;
+}
+
+.hero_sec .right .hero_image{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin: -390px 0px 0px -10px;
+    box-shadow: 220px 35px 170px #a0a3ec;
+}
+
+.hero_sec .right .hero_image img{
+    width: 450px;
+    border-radius: 50%;
+}
+
+.card_box_container{
+    padding-top: 100px;
+}
+
+.card_box_heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card_box{
+    padding: 30px 240px;
+    display: flex;
+    justify-content: space-around;
+}
+.card_box .card{
+    width: 300px;
+    height: 250px;
+    padding-top: 20px;
+    border: 1px solid #d9d8d8;
+    border-radius: 5px;
+    text-align: center;
+}
+.card_box .card .card_image img{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+.card_box .card .card_title{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card_box .card .card_description{
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #676767;
+}
+
+.card_box .card .card_button{
+    padding-top: 10px;
+}
+
+.card_box .card .card_button a{
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: #3a40d8;
+    border: 1px solid #3a40d8;
+    background-color: white;
+}
+
+.card_box .card .card_button a:hover{
+    color: white;
+    background-color: #3a40d8;
+}
+
+/* Section-1 End */
+
+/* Section-2 Start */
+
+.section_2{
+    padding: 20px 220px;
+    display: flex;
+    background-color: #eeeafc;
+    padding-bottom: 40px;
+}
+
+.section_2 .left{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 130px;
+    width: 50%;
+    z-index: 1;
+}
+
+#circle_4{
+    position: absolute;
+    display: inline-block;
+    width: 270px;
+    height: 150px;
+    border: 35px solid #d3caf9;
+    border-top: 0px;
+    border-radius: 0px 0px 250px 250px;
+    top: -20px;
+    left: -265px;
+    z-index: -1;
+}
+
+.section_2 .left .image_1 img{
+    width: 550px;
+    border-radius: 12px;
+}
+
+.section_2 .left .images{
+    display: flex;
+    padding-top: 20px;
+}
+.section_2 .left .images .image_2 img{
+    width: 220px;
+    border-radius: 12px;
+}
+
+.section_2 .left .images .image_3{
+    padding-left: 20px;
+}
+
+.section_2 .left .images .image_3 img{
+    width: 310px;
+    border-radius: 12px;
+}
+
+.section_2 .right{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.section_2 .right .title{
+    font-size: 35px;
+    padding-right: 70px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.section_2 .right .description{
+    padding-top: 20px;
+    padding-right: 295px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #676767;
+    text-align: justify;
+}
+
+.section_2 .right .small_headings{
+    display: flex;
+    padding-top: 30px;
+    padding-right: 300px;
+}
+
+.section_2 .right .small_headings .small_headings_1{
+    width: 49%;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.section_2 .right .small_headings .vertical_bar{
+    width: 2%;
+    margin: 0px 27px;
+    width: 5px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #3a40d8;
+}
+
+.section_2 .right .small_headings .small_headings_2{
+    width: 49%;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.section_2 .right .btn{
+    padding-top: 40px;
+}
+
+.section_2 .right .btn a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3a40d8;
+}
+
+.section_2 .right .btn a:hover{
+    color: #3a40d8;
+    background-color: white;
+    border: 1px solid #3a40d8;
+}
+
+.section_2 .right .btn a i{
+    font-size: 15px;
+    padding-left: 6px;
+}
+
+/* Section-2 End */
+
+/* Section-3 Start */
+
+.section_3{
+    padding: 20px 130px;
+}
+
+.section_3 .title{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.section_3 .memorials{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 190px;
+    padding-bottom: 50px;
+}
+
+.section_3 .memorials .memorial{
+    width: 400px;
+    height: 500px;
+    border: 1px solid #d9d8d8;
+}
+
+.section_3 .memorials .memorial .image img{
+    width: 398px;
+    height: 230px;
+}
+
+.section_3 .memorials .memorial .title{
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 3px;
+    padding: 20px 40px;
+    text-align: left;
+}
+
+.section_3 .memorials .memorial .description{
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 3px;
+    padding-right: 70px;
+    padding-left: 40px;
+    text-align: left;
+    color: #676767;
+}
+
+.section_3 .memorials .memorial .memorial_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.section_3 .memorials .memorial .memorial_bottom .profile{
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 3px;
+    color: #3a40d8;
+    line-height: 40px;
+}
+
+.section_3 .memorials .memorial .memorial_bottom .profile i{
+    font-size: 18px;
+    padding-right: 6px;
+    color: #3a40d8;
+}
+
+.section_3 .memorials .memorial .memorial_bottom .btn a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: #3a40d8;
+    border: 1px solid #3a40d8;
+    background-color: white;
+}
+
+.section_3 .memorials .memorial .memorial_bottom .btn a:hover{
+    color: white;
+    background-color: #3a40d8;
+}
+
+.section_3 .memorials .memorial .memorial_bottom .btn a i{
+    font-size: 15px;
+    padding-left: 6px;
+}
+
+/* Section-3 End */
+
+/* Footer Start */
+
+.footer{
+    padding: 20px 220px;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .left{
+    color: white;
+    font-size: 18px;
+}
+
+.footer .left p{
+    display: inline-block;
+    color: #3a40d8;
+}
+
+.footer .right{
+    display: flex;
+}
+
+.footer .right .icon{
+    padding-right: 15px;
+}
+
+.footer .right .icon a{
+    text-decoration: none;
+}
+
+.footer .right .icon a i:hover{
+    color: #3a40d8;
+}
+
+.footer .right .icon a i{
+    color: white;
+    font-size: 20px;
+}
+
+/* Footer End */
+
+@media only screen and (min-width: 360px) {
+    /* For mobile of resolution 360*800: */
+
+    /* Navigation bar Start */
+
+    .nav_bar{
+        padding: 20px 15px;
+        justify-content:unset;
+    }
+
+    .nav_bar .logo a{
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 135px;
+        padding-top: 5px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 11px;
+        width: 80px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 6px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 9px;
+        padding-left: 3px;
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start  */
+
+    .section_1{
+        padding: 20px 75px;
+    }
+
+    .hero_sec .left{
+        padding-top: 0px;
+        width: 50%;
+    }
+
+    #circle_1{
+        width: 150px;
+        height: 150px;
+        margin: -126px 0px 0px -117px;
+        border: 0.5px solid #3a40d8;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 16px;
+        padding-right: 0px;
+        word-spacing: 0px;
+        margin: -32px 0px 0px -39px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 10px;
+        margin-left: -40px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 10px;
+        font-size: 8px;
+        width: 70px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 6px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 7px;
+        padding-left: 2px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        font-size: 8px;
+        width: 75px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 7px;
+        padding-left: 2px;
+    }
+
+    .hero_sec .right{
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+
+    #circle_2{
+        width: 120px;
+        height: 120px;
+        margin: -15px 0px -19px 0px;
+        border: 0.5px solid #3a40d8;
+    }
+
+    #circle_3{
+        width: 120px;
+        height: 120px;
+        margin: -110px 0px 0px 15px;
+        border: 0.5px solid #3a40d8;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 120px;
+        height: 120px;
+        margin: -112px 0px 0px 0px;
+        box-shadow: 40px 0px 70px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 120px;
+    }
+
+    .card_box_container{
+        padding-top: 30px;
+    }
+
+    .card_box_heading{
+        font-size: 19px;
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    .card_box{
+        padding: 20px 0px;
+        margin: 0 -55px;
+        justify-content: unset;
+    }
+
+    .card_box .card{
+        width: 100px;
+        height: 145px;
+        padding-top: 10px;
+        border-radius: 5px;
+        margin: 0 5px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 5px;
+        font-size: 11px;
+    }
+
+    .card_box .card .card_description{
+        padding: 5px 5px;
+        font-size: 7px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 5px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 10px;
+        line-height: 18px;
+        width: 65px;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 10px 0px;
+        padding-bottom: 10px;
+    }
+
+    .section_2 .left{
+        padding-top: 10px;
+        padding-left: 20px;
+        width: 21%;
+    }
+
+    #circle_4{
+        width: 110px;
+        height: 55px;
+        border: 17px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -10px;
+        left: -25px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 170px;
+        border-radius: 8px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 5px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 75px;
+        border-radius: 8px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 10px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 85px;
+        border-radius: 8px;
+    }
+
+    .section_2 .right{
+        padding-top: 20px;
+        padding-left: 125px;
+        width: 79%;
+    }
+
+    .section_2 .right .title{
+        font-size: 12px;
+        padding-right: 0px;
+        word-spacing: 0px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 5px;
+        padding-right: 8px;
+        font-size: 7px;
+        line-height: 9px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 5px;
+        padding-right: 6px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 7px;
+        word-spacing: 0px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 0px 5px;
+        width: 1.5px;
+        height: 20px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 7px;
+        word-spacing: 0px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 5px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 7px;
+        width: 60px;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 6px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 7px;
+        padding-left: 2px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 15px 0px;
+    }
+
+    .section_3 .title{
+        padding-top: 5px;
+        font-size: 18px;
+        word-spacing: 0px;
+    }
+
+    .section_3 .memorials{
+        padding: 10px 30px;
+        padding-bottom: 20px;
+        justify-content: unset;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 100px;
+        height: 140px;
+        margin: 0px 3px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 98px;
+        height: 55px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 7px;
+        word-spacing: 0px;
+        padding: 5px 5px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 6px;
+        font-weight: 300;
+        word-spacing: 2px;
+        padding-right: 0px;
+        padding-left: 5px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 5px 5px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 7px;
+        line-height: 15px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 7px;
+        padding-right: 2px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 7px;
+        line-height: 15px;
+        width: 50px;
+        height: 15px;
+        border-radius: 4px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 6px;
+        padding-left: 0px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 5px 18px;
+        justify-content:unset;
+    }
+
+    .footer .left{
+        font-size: 8px;
+        line-height: 20px;
+    }
+
+    .footer .right{
+        padding-left: 130px;
+    }
+
+    .footer .right .icon{
+        padding-right: 10px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 10px;
+    }
+
+    /* Footer End */
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablet of resolution 768*1024: */
+
+    /* Navigation bar Start */
+
+    .nav_bar{
+        padding: 20px 50px;
+        justify-content:unset;
+    }
+
+    .nav_bar .logo a{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 430px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 15px;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 12px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 13px;
+        padding-left: 3px;
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 75px;
+    }
+
+    .hero_sec .left{
+        padding-top: 0px;
+        width: 50%;
+    }
+
+    #circle_1{
+        width: 250px;
+        height: 250px;
+        margin: -145px 0px 0px -140px;
+        border: 2px solid #3a40d8;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 30px;
+        padding-right: 60px;
+        word-spacing: 0px;
+        margin: -57px 0px 0px -15px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 10px;
+        margin-left: -15px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 15px;
+        font-size: 15px;
+        width: 110px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 6px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 13px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        font-size: 15px;
+        width: 110px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 13px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    #circle_2{
+        width: 220px;
+        height: 220px;
+        margin: 10px 0px -19px 0px;
+        border: 2px solid #3a40d8;
+    }
+
+    #circle_3{
+        width: 220px;
+        height: 220px;
+        margin: -205px 0px 0px 25px;
+        border: 2px solid #3a40d8;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 220px;
+        height: 220px;
+        margin: -200px 0px 0px 0px;
+        box-shadow: 90px 0px 100px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 220px;
+    }
+
+    .card_box_container{
+        padding-top: 50px;
+    }
+
+    .card_box_heading{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 20px 0px;
+    }
+
+    .card_box .card{
+        width: 250px;
+        height: 235px;
+        padding-top: 10px;
+        border-radius: 5px;
+        margin: 0 7px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 5px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 16px;
+        line-height: 40px;
+        width: 110px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 10px 0px;
+        padding-bottom: 20px;
+    }
+
+    .section_2 .left{
+        padding-top: 20px;
+        padding-left: 40px;
+        width: 50%;
+    }
+
+    #circle_4{
+        width: 160px;
+        height: 80px;
+        border: 23px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -10px;
+        left: -34px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 370px;
+        border-radius: 8px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 10px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 160px;
+        border-radius: 8px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 20px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 190px;
+        border-radius: 8px;
+    }
+
+    .section_2 .right{
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+
+    .section_2 .right .title{
+        font-size: 24px;
+        padding-right: 0px;
+        word-spacing: 0px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 10px;
+        padding-right: 25px;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 10px;
+        padding-right: 6px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 16px;
+        word-spacing: 0px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 0px 7px;
+        width: 3px;
+        height: 45px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 16px;
+        word-spacing: 0px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 5px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 16px;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 13px;
+        padding-left: 2px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 15px 0px;
+    }
+
+    .section_3 .title{
+        padding-top: 30px;
+        font-size: 30px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 30px 0px;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 220px;
+        height: 290px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 218px;
+        height: 110px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 16px;
+        word-spacing: 0px;
+        padding: 10px 10px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 14px;
+        font-weight: 300;
+        word-spacing: 2px;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 10px 10px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 15px;
+        line-height: 40px;
+        width: 110px;
+        height: 40px;
+        border-radius: 8px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 13px;
+        padding-left: 2px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 55px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer .right .icon{
+        padding-right: 20px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 17px;
+    }
+
+    /* Footer End */
+
+}
+
+@media only screen and (min-width: 1024px) {
+    /* For tablet of resolution 1024*768: */
+
+    /* Navigation bar Start */
+
+    .nav_bar{
+        padding: 20px 120px;
+    }
+
+    .nav_bar .logo a{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 440px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 13px;
+        
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 180px;
+    }
+
+    .hero_sec .left{
+        padding-top: 80px;
+    }
+
+    #circle_1{
+        width: 500px;
+        height: 500px;
+        margin: -320px 0px 0px -345px;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 35px;
+        padding-right: 50px;
+        word-spacing: 5px;
+        margin: -65px 0px 0px -67px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 20px;
+        margin-left: -67px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 30px;
+        font-size: 17px;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        margin-right: 30px;
+        font-size: 17px;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+    #circle_2{
+        width: 420px;
+        height: 420px;
+        margin: 0px 0px -18px 0px;
+    }
+
+    #circle_3{
+        width: 420px;
+        height: 420px;
+        margin: -416px 0px 0px 47px;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 400px;
+        height: 400px;
+        margin: -390px 0px 0px -10px;
+        box-shadow: 220px 35px 170px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 400px;
+    }
+
+    .card_box_container{
+        padding-top: 120px;
+    }
+
+    .card_box_heading{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 30px 0px;
+    }
+
+    .card_box .card{
+        width: 270px;
+        height: 260px;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 10px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 20px 0px;
+        padding-bottom: 40px;
+    }
+
+    .section_2 .left{
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+
+    #circle_4{
+        width: 270px;
+        height: 150px;
+        border: 35px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -20px;
+        left: -50px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 430px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 20px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 180px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 20px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 230px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right{
+        padding-top: 70px;
+        padding-left: 70px;
+    }
+
+    .section_2 .right .title{
+        font-size: 26px;
+        padding-right: 50px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 20px;
+        padding-right: 50px;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 30px;
+        padding-right: 38px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 17px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 0px 25px;
+        width: 5px;
+        height: 45px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 17px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 40px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 17px;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 20px 0px;
+    }
+
+    .section_3 .title{
+        padding-top: 30px;
+        font-size: 30px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 20px 15px;
+        padding-bottom: 50px;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 320px;
+        height: 400px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 318px;
+        height: 160px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 22px;
+        word-spacing: 3px;
+        padding: 20px 20px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 16px;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding-right: 35px;
+        padding-left: 20px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 20px 20px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 16px;
+        word-spacing: 3px;
+        line-height: 40px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 16px;
+        padding-right: 6px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 16px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 15px 50px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 18px;
+    }
+
+    .footer .right .icon{
+        padding-right: 15px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 20px;
+    }
+
+    /* Footer End */
+
+}
+
+@media only screen and (min-width: 1280px) {
+    /* For desktop and tablet of resolution 1280*1000: */
+
+    /* Navigation bar Start */
+
+    .nav_bar{
+        padding: 20px 140px;
+    }
+
+    .nav_bar .logo a{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 630px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 13px;
+        
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 200px;
+    }
+
+    .hero_sec .left{
+        padding-top: 80px;
+    }
+
+    #circle_1{
+        width: 500px;
+        height: 500px;
+        margin: -320px 0px 0px -345px;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 40px;
+        padding-right: 100px;
+        word-spacing: 5px;
+        margin: -75px 0px 0px -70px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 20px;
+        margin-left: -70px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 30px;
+        font-size: 18px;
+        width: 170px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 10px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 18px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        margin-right: 30px;
+        font-size: 18px;
+        width: 170px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 10px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 18px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 80px;
+    }
+
+    #circle_2{
+        width: 420px;
+        height: 420px;
+        margin: 0px 0px -18px 0px;
+    }
+
+    #circle_3{
+        width: 420px;
+        height: 420px;
+        margin: -416px 0px 0px 47px;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 400px;
+        height: 400px;
+        margin: -390px 0px 0px -10px;
+        box-shadow: 220px 35px 170px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 400px;
+    }
+
+    .card_box_container{
+        padding-top: 120px;
+    }
+
+    .card_box_heading{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 30px 70px;
+    }
+
+    .card_box .card{
+        width: 350px;
+        height: 330px;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 10px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 20px 0px;
+        padding-bottom: 40px;
+    }
+
+    .section_2 .left{
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+
+    #circle_4{
+        width: 270px;
+        height: 150px;
+        border: 35px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -20px;
+        left: -50px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 550px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 20px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 220px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 20px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 310px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right{
+        padding-top: 70px;
+        padding-left: 70px;
+    }
+
+    .section_2 .right .title{
+        font-size: 40px;
+        padding-right: 0px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 20px;
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 3px 20px;
+        width: 5px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 40px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 20px 0px;
+    }
+
+    .section_3 .title{
+        padding-top: 30px;
+        font-size: 45px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 20px 20px;
+        padding-bottom: 50px;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 400px;
+        height: 500px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 398px;
+        height: 230px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 25px;
+        word-spacing: 3px;
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 18px;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding-right: 70px;
+        padding-left: 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 18px;
+        word-spacing: 3px;
+        line-height: 40px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 18px;
+        padding-right: 6px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 80px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 18px;
+    }
+
+    .footer .right .icon{
+        padding-right: 15px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 20px;
+    }
+
+    /* Footer End */
+
+}
+
+@media only screen and (min-width: 1366px) {
+    /* For desktop of resolution 1366*1000: */
+
+    /* Navigation bar Start */
+
+    .nav_bar{
+        padding: 20px 175px;
+    }
+    
+    .nav_bar .logo a{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 670px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 13px;
+        
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 210px;
+    }
+
+    .hero_sec .left{
+        padding-top: 80px;
+    }
+
+    #circle_1{
+        width: 530px;
+        height: 530px;
+        margin: -320px 0px 0px -345px;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 45px;
+        padding-right: 100px;
+        word-spacing: 5px;
+        margin: -84px 0px 0px -55px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 20px;
+        margin-left: -55px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 30px;
+        font-size: 18px;
+        width: 170px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 10px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        margin-right: 30px;
+        font-size: 18px;
+        width: 170px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 10px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 80px;
+    }
+
+    #circle_2{
+        width: 430px;
+        height: 430px;
+        margin: 0px 0px -18px 0px;
+    }
+
+    #circle_3{
+        width: 430px;
+        height: 430px;
+        margin: -416px 0px 0px 47px;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 450px;
+        height: 450px;
+        margin: -390px 0px 0px -10px;
+        box-shadow: 220px 35px 170px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 450px;
+    }
+
+    .card_box_container{
+        padding-top: 120px;
+    }
+
+    .card_box_heading{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 30px 110px;
+    }
+
+    .card_box .card{
+        width: 350px;
+        height: 330px;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 10px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 20px 0px;
+        padding-bottom: 40px;
+    }
+
+    .section_2 .left{
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+
+    #circle_4{
+        width: 270px;
+        height: 150px;
+        border: 35px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -20px;
+        left: -50px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 550px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 20px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 220px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 20px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 310px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right{
+        padding-top: 70px;
+        padding-left: 30px;
+    }
+
+    .section_2 .right .title{
+        font-size: 40px;
+        padding-right: 0px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 20px;
+        padding-right: 130px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 30px;
+        padding-right: 120px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 3px 20px;
+        width: 5px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 40px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 20px 0px;
+    }
+
+    .section_3 .title{
+        padding-top: 30px;
+        font-size: 45px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 20px 50px;
+        padding-bottom: 50px;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 400px;
+        height: 500px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 398px;
+        height: 230px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 25px;
+        word-spacing: 3px;
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 18px;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding-right: 70px;
+        padding-left: 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 18px;
+        word-spacing: 3px;
+        line-height: 40px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 18px;
+        padding-right: 6px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 120px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 18px;
+    }
+
+    .footer .right .icon{
+        padding-right: 15px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 20px;
+    }
+
+    /* Footer End */
+
+}
+
+@media only screen and (min-width: 1400px) {
+    /* For desktop of resolution 1400*1000: */
+
+    /* Navigation bar Start */
+
+    .nav_bar{
+        padding: 20px 175px;
+    }
+
+    .nav_bar .logo a{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 700px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 13px;
+        
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 210px;
+    }
+
+    .hero_sec .left{
+        padding-top: 80px;
+    }
+
+    #circle_1{
+        width: 530px;
+        height: 530px;
+        margin: -320px 0px 0px -345px;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 50px;
+        padding-right: 100px;
+        word-spacing: 5px;
+        margin: -90px 0px 0px -65px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 20px;
+        margin-left: -65px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 30px;
+        font-size: 18px;
+        width: 170px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 10px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        margin-right: 30px;
+        font-size: 18px;
+        width: 170px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 10px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 80px;
+    }
+
+    #circle_2{
+        width: 430px;
+        height: 430px;
+        margin: 0px 0px -18px 0px;
+    }
+
+    #circle_3{
+        width: 430px;
+        height: 430px;
+        margin: -416px 0px 0px 47px;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 450px;
+        height: 450px;
+        margin: -390px 0px 0px -10px;
+        box-shadow: 220px 35px 170px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 450px;
+    }
+
+    .card_box_container{
+        padding-top: 120px;
+    }
+
+    .card_box_heading{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 30px 130px;
+    }
+
+    .card_box .card{
+        width: 350px;
+        height: 330px;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 10px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 20px 0px;
+        padding-bottom: 40px;
+    }
+
+    .section_2 .left{
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+
+    #circle_4{
+        width: 270px;
+        height: 150px;
+        border: 35px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -20px;
+        left: -50px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 550px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 20px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 220px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 20px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 310px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right{
+        padding-top: 70px;
+        padding-left: 30px;
+    }
+
+    .section_2 .right .title{
+        font-size: 50px;
+        padding-right: 0px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 20px;
+        padding-right: 130px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 30px;
+        padding-right: 150px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 3px 20px;
+        width: 5px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 40px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 20px 0px;
+    }
+
+    .section_3 .title{
+        padding-top: 30px;
+        font-size: 45px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 20px 70px;
+        padding-bottom: 50px;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 400px;
+        height: 500px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 398px;
+        height: 230px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 25px;
+        word-spacing: 3px;
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 18px;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding-right: 70px;
+        padding-left: 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 18px;
+        word-spacing: 3px;
+        line-height: 40px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 18px;
+        padding-right: 6px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 120px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 18px;
+    }
+
+    .footer .right .icon{
+        padding-right: 15px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 20px;
+    }
+
+    /* Footer End */
+
+}
+
+@media only screen and (min-width: 1600px) {
+    /* For desktop of resolution 1600*1000: */
+
+    /* Navigation bar Start */
+
+    .nav_bar{
+        padding: 20px 175px;
+    }
+
+    .nav_bar .logo a{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 850px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 13px;
+        
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 200px;
+    }
+
+    .hero_sec .left{
+        padding-top: 80px;
+    }
+
+    #circle_1{
+        width: 550px;
+        height: 550px;
+        margin: -320px 0px 0px -345px;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 60px;
+        padding-right: 100px;
+        word-spacing: 5px;
+        margin: -106px 0px 0px -65px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 20px;
+        margin-left: -65px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 30px;
+        font-size: 23px;
+        width: 180px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 10px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 18px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        margin-right: 30px;
+        font-size: 23px;
+        width: 180px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 10px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 18px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 80px;
+    }
+
+    #circle_2{
+        width: 430px;
+        height: 430px;
+        margin: 0px 0px -18px 0px;
+    }
+
+    #circle_3{
+        width: 430px;
+        height: 430px;
+        margin: -416px 0px 0px 47px;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 450px;
+        height: 450px;
+        margin: -390px 0px 0px -10px;
+        box-shadow: 220px 35px 170px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 450px;
+    }
+
+    .card_box_container{
+        padding-top: 120px;
+    }
+
+    .card_box_heading{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 30px 240px;
+    }
+
+    .card_box .card{
+        width: 350px;
+        height: 330px;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 10px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 20px 90px;
+        padding-bottom: 40px;
+    }
+
+    .section_2 .left{
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+
+    #circle_4{
+        width: 270px;
+        height: 150px;
+        border: 35px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -20px;
+        left: -145px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 550px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 20px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 220px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 20px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 310px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right{
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+
+    .section_2 .right .title{
+        font-size: 50px;
+        padding-right: 50px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 20px;
+        padding-right: 130px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 30px;
+        padding-right: 180px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 3px 20px;
+        width: 5px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 40px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 20px 0px;
+    }
+
+    .section_3 .title{
+        padding-top: 30px;
+        font-size: 45px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 20px 170px;
+        padding-bottom: 50px;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 400px;
+        height: 500px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 398px;
+        height: 230px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 25px;
+        word-spacing: 3px;
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 18px;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding-right: 70px;
+        padding-left: 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 18px;
+        word-spacing: 3px;
+        line-height: 40px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 18px;
+        padding-right: 6px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 220px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 18px;
+    }
+
+    .footer .right .icon{
+        padding-right: 15px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 20px;
+    }
+
+    /* Footer End */
+
+}
+
+@media only screen and (min-width: 1800px) {
+    /* For desktop of resolution 1800*1000: */
+
+    /* Navigation bar Start */
+
+    .nav_bar{
+        padding: 20px 210px;
+    }
+
+    .nav_bar .logo a{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 970px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 220px;
+    }
+
+    .hero_sec .left{
+        padding-top: 80px;
+    }
+
+    #circle_1{
+        width: 550px;
+        height: 550px;
+        margin: -320px 0px 0px -320px;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 70px;
+        padding-right: 100px;
+        word-spacing: 5px;
+        margin: -128px 0px 0px -46px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 20px;
+        margin-left: -46px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 30px;
+        font-size: 23px;
+        width: 180px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 10px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        margin-right: 30px;
+        font-size: 23px;
+        width: 180px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 10px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 80px;
+        padding-left: 70px;
+    }
+
+    #circle_2{
+        width: 430px;
+        height: 430px;
+        margin: 0px 0px -18px 0px;
+    }
+
+    #circle_3{
+        width: 430px;
+        height: 430px;
+        margin: -416px 0px 0px 47px;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 450px;
+        height: 450px;
+        margin: -390px 0px 0px -10px;
+        box-shadow: 220px 35px 170px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 450px;
+    }
+
+    .card_box_container{
+        padding-top: 120px;
+    }
+
+    .card_box_heading{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 30px 300px;
+    }
+
+    .card_box .card{
+        width: 350px;
+        height: 330px;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 10px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 20px 220px;
+        padding-bottom: 40px;
+    }
+
+    .section_2 .left{
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+
+    #circle_4{
+        width: 270px;
+        height: 150px;
+        border: 35px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -20px;
+        left: -265px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 550px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 20px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 220px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 20px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 310px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right{
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+
+    .section_2 .right .title{
+        font-size: 50px;
+        padding-right: 0px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 20px;
+        padding-right: 80px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 30px;
+        padding-right: 100px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 3px 20px;
+        width: 5px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 40px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 20px 70px;
+    }
+
+    .section_3 .title{
+        padding-top: 30px;
+        font-size: 45px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 20px 190px;
+        padding-bottom: 50px;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 400px;
+        height: 500px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 398px;
+        height: 230px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 25px;
+        word-spacing: 3px;
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 18px;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding-right: 70px;
+        padding-left: 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 18px;
+        word-spacing: 3px;
+        line-height: 40px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 18px;
+        padding-right: 6px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 360px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 18px;
+    }
+
+    .footer .right .icon{
+        padding-right: 15px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 20px;
+    }
+
+    /* Footer End */
+
+} 
+
+@media only screen and (min-width: 1920px) {
+    /* For desktop of resolution 1920*1080: */
+
+    /* Navigation bar Start */
+
+    .container{
+        width: 100%;
+    }
+
+    .nav_bar{
+        padding: 20px 210px;
+    }
+
+    .nav_bar .logo a{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 1080px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 220px;
+    }
+
+    .hero_sec .left{
+        padding-top: 80px;
+    }
+
+    #circle_1{
+        width: 550px;
+        height: 550px;
+        margin: -320px 0px 0px -320px;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 70px;
+        padding-right: 120px;
+        word-spacing: 5px;
+        margin: -128px 0px 0px -46px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 20px;
+        margin-left: -46px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 30px;
+        font-size: 23px;
+        width: 180px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 10px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        margin-right: 30px;
+        font-size: 23px;
+        width: 180px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 10px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 80px;
+        padding-left: 90px;
+    }
+
+    #circle_2{
+        width: 430px;
+        height: 430px;
+        margin: 0px 0px -18px 0px;
+    }
+
+    #circle_3{
+        width: 430px;
+        height: 430px;
+        margin: -416px 0px 0px 47px;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 450px;
+        height: 450px;
+        margin: -390px 0px 0px -10px;
+        box-shadow: 220px 35px 170px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 450px;
+    }
+
+    .card_box_container{
+        padding-top: 120px;
+    }
+
+    .card_box_heading{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 30px 300px;
+    }
+
+    .card_box .card{
+        width: 350px;
+        height: 330px;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 10px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 20px 220px;
+        padding-bottom: 40px;
+    }
+
+    .section_2 .left{
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+
+    #circle_4{
+        width: 270px;
+        height: 150px;
+        border: 35px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -20px;
+        left: -265px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 550px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images{
+        padding-top: 20px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 220px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 20px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 310px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right{
+        padding-top: 100px;
+    }
+
+    .section_2 .right .title{
+        font-size: 50px;
+        padding-right: 110px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 20px;
+        padding-right: 130px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 30px;
+        padding-right: 245px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 3px 20px;
+        width: 5px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 24px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 40px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 18px;
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 20px 130px;
+    }
+
+    .section_3 .title{
+        padding-top: 30px;
+        font-size: 30px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 20px 190px;
+        padding-bottom: 50px;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 400px;
+        height: 500px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 398px;
+        height: 230px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 25px;
+        word-spacing: 3px;
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 18px;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding-right: 70px;
+        padding-left: 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 20px 40px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 18px;
+        word-spacing: 3px;
+        line-height: 40px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 18px;
+        padding-right: 6px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 18px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 15px;
+        padding-left: 6px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 20px 360px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 18px;
+    }
+
+    .footer .right .icon{
+        padding-right: 15px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 20px;
+    }
+
+    /* Footer End */
+
+} 
+
+@media only screen and (min-width: 2560px) {
+    /* For desktop of resolution 2560*1440: */
+
+    /* Navigation bar Start */
+
+    .container{
+        width: 100%;
+    }
+
+    .nav_bar{
+        padding: 40px 210px;
+    }
+
+    .nav_bar .logo a{
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .nav_bar .menu{
+        padding-left: 1350px;
+    }
+
+    .nav_bar .menu a{
+        font-size: 30px;
+        width: 230px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 12px;
+    }
+
+    .nav_bar .menu a i{
+        font-size: 25px;
+        padding-left: 6px;
+    }
+
+    /* Navigation bar End */
+
+    /* Section-1 Start */
+
+    .section_1{
+        padding: 20px 220px;
+    }
+
+    .hero_sec .left{
+        padding-top: 80px;
+    }
+
+    #circle_1{
+        width: 750px;
+        height: 750px;
+        margin: -435px 0px 0px -320px;
+    }
+
+    .hero_sec .left .hero_title{
+        font-size: 100px;
+        padding-right: 150px;
+        word-spacing: 5px;
+        margin: -172px 0px 0px 30px;
+    }
+
+    .hero_sec .left .hero_btn_container{
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_1{
+        margin-right: 40px;
+        font-size: 40px;
+        width: 250px;
+        height: 90px;
+        line-height: 90px;
+        border-radius: 13px;
+    }
+    
+    .hero_sec .left .hero_btn_container .hero_btn_1 i{
+        font-size: 40px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2{
+        font-size: 40px;
+        width: 280px;
+        height: 90px;
+        line-height: 90px;
+        border-radius: 13px;
+    }
+
+    .hero_sec .left .hero_btn_container .hero_btn_2 i{
+        font-size: 40px;
+        padding-left: 6px;
+    }
+
+    .hero_sec .right{
+        padding-top: 80px;
+        padding-left: 90px;
+    }
+
+    #circle_2{
+        width: 630px;
+        height: 630px;
+        margin: 0px 0px -18px 0px;
+    }
+
+    #circle_3{
+        width: 630px;
+        height: 630px;
+        margin: -615px 0px 0px 65px;
+    }
+
+    .hero_sec .right .hero_image{
+        width: 650px;
+        height: 650px;
+        margin: -560px 0px 0px -10px;
+        box-shadow: 250px 35px 200px #a0a3ec;
+    }
+
+    .hero_sec .right .hero_image img{
+        width: 650px;
+    }
+
+    .card_box_container{
+        padding-top: 180px;
+    }
+
+    .card_box_heading{
+        font-size: 75px;
+        text-align: center;
+    }
+
+    .card_box{
+        padding: 50px 440px;
+    }
+
+    .card_box .card{
+        width: 550px;
+        height: 470px;
+        padding-top: 30px;
+        border-radius: 5px;
+        margin: 0px 18px;
+    }
+    
+    .card_box .card .card_image img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .card_box .card .card_title{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+
+    .card_box .card .card_description{
+        padding: 10px 20px;
+        font-size: 25px;
+    }
+
+    .card_box .card .card_button{
+        padding-top: 15px;
+    }
+    
+    .card_box .card .card_button a{
+        font-size: 30px;
+        line-height: 70px;
+        width: 220px;
+        height: 70px;
+        border-radius: 12px;
+    }
+
+    /* Section-1 End */
+
+    /* Section-2 Start */
+
+    .section_2{
+        padding: 20px 15px;
+        padding-bottom: 40px;
+    }
+
+    .section_2 .left{
+        padding-top: 40px;
+        padding-left: 130px;
+        width: 50%;
+    }
+
+    #circle_4{
+        width: 330px;
+        height: 180px;
+        border: 50px solid #d3caf9;
+        border-top: 0px;
+        border-radius: 0px 0px 250px 250px;
+        top: -20px;
+        left: -65px;
+    }
+
+    .section_2 .left .image_1 img{
+        width: 1130px;
+        border-radius: 25px
+    }
+
+    .section_2 .left .images{
+        padding-top: 40px;
+    }
+
+    .section_2 .left .images .image_2 img{
+        width: 470px;
+        border-radius: 12px;
+    }
+
+    .section_2 .left .images .image_3{
+        padding-left: 40px;
+    }
+
+    .section_2 .left .images .image_3 img{
+        width: 620px;
+        border-radius: 12px;
+    }
+
+    .section_2 .right{
+        padding-top: 180px;
+        width: 50%;
+    }
+
+    .section_2 .right .title{
+        font-size: 65px;
+        padding-right: 110px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .description{
+        padding-top: 30px;
+        padding-right: 140px;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: justify;
+    }
+
+    .section_2 .right .small_headings{
+        padding-top: 40px;
+        padding-right: 150px;
+    }
+
+    .section_2 .right .small_headings .small_headings_1{
+        font-size: 50px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .small_headings .vertical_bar{
+        margin: 5px 25px;
+        width: 5px;
+        height: 115px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .small_headings .small_headings_2{
+        font-size: 50px;
+        word-spacing: 3px;
+    }
+
+    .section_2 .right .btn{
+        padding-top: 50px;
+    }
+
+    .section_2 .right .btn a{
+        font-size: 40px;
+        width: 280px;
+        height: 90px;
+        line-height: 90px;
+        border-radius: 15px;
+    }
+
+    .section_2 .right .btn a i{
+        font-size: 30px;
+        padding-left: 6px;
+    }
+
+    /* Section-2 End */
+
+    /* Section-3 Start */
+
+    .section_3{
+        padding: 20px 130px;
+    }
+
+    .section_3 .title{
+        padding-top: 60px;
+        font-size: 60px;
+        word-spacing: 3px;
+    }
+
+    .section_3 .memorials{
+        padding: 40px 300px;
+        padding-bottom: 50px;
+    }
+
+    .section_3 .memorials .memorial{
+        width: 500px;
+        height: 640px;
+    }
+
+    .section_3 .memorials .memorial .image img{
+        width: 498px;
+        height: 270px;
+    }
+
+    .section_3 .memorials .memorial .title{
+        font-size: 35px;
+        word-spacing: 3px;
+        padding: 20px 30px;
+    }
+
+    .section_3 .memorials .memorial .description{
+        font-size: 30px;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding-right: 70px;
+        padding-left: 30px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom{
+        padding: 30px 30px;
+    }
+
+    .section_3 .memorials .memorial .memorial_bottom .profile{
+        font-size: 30px;
+        word-spacing: 3px;
+        line-height: 70px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .profile i{
+        font-size: 30px;
+        padding-right: 6px;
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a{
+        font-size: 30px;
+        line-height: 70px;
+        width: 220px;
+        height: 70px;
+        border-radius: 15px
+    }
+    .section_3 .memorials .memorial .memorial_bottom .btn a i{
+        font-size: 30px;
+        padding-left: 6px;
+    }
+
+    /* Section-3 End */
+
+    /* Footer Start */
+
+    .footer{
+        padding: 30px 510px;
+        justify-content: space-between;
+    }
+
+    .footer .left{
+        font-size: 30px;
+    }
+
+    .footer .right .icon{
+        padding-right: 30px;
+    }
+
+    .footer .right .icon a i{
+        font-size: 35px;
+    }
+
+    /* Footer End */
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
